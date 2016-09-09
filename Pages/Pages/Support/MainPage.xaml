@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="Pages.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Padding="20">
+            <StackLayout.Children>
+                <Label FontAttributes="Bold"
+                       FontSize="33"
+                       Text="Página inicial do nosso App."
+                       TextColor="Red" />
+
+                <Button Clicked="Handle_Clicked"
+                        FontAttributes="Bold"
+                        FontSize="22"
+                        Text="Ir para outra página"
+                        TextColor="Red" />
+            </StackLayout.Children>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
